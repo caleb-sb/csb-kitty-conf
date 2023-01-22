@@ -1,7 +1,7 @@
 # Maintainer: Caleb Bredekamp
 pkgname=csb-kitty-conf-git
 _pkgname=csb-kitty-conf
-pkgver=v0.0.1.r2.g0ce4d8d
+pkgver=v0.0.1.r0.gbd4dd7c
 pkgrel=1
 _destname1="/etc/skel/.config/kitty/"
 pkgdesc="Caleb's kitty configuration"
@@ -10,7 +10,7 @@ url="https://github.com/caleb-sb/${_pkgname}.git"
 license=('MIT')
 depends=()
 makedepends=('git')
-replaces=()
+replaces=('arcolinux-kitty-git')
 provides=("${pkgname}")
 conflicts=()
 options=(!strip !emptydirs)
