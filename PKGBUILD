@@ -1,7 +1,7 @@
 # Maintainer: Caleb Bredekamp
 pkgname=csb-kitty-conf-git
 _pkgname=csb-kitty-conf
-pkgver=v0.0.1.r0.gbd4dd7c
+pkgver=v0.0.1.r1.gcdd04d4
 pkgrel=1
 _destname1="/etc/skel/.config/kitty/"
 pkgdesc="Caleb's kitty configuration"
